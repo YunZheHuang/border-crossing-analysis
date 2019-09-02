@@ -1,0 +1,3 @@
+My approach is first using a tuple which contains border, date and measure as the key of the dictionary. For each key inside the dictionary, the script checks every key and count the number of keys that is earlier than current key with the same border and measures. And then add up all the values of the key and divide the number of the key to calculate the average. And then print out the result to the output file.
+
+The running instruction in my computer is: 1.open the terminal,go to the directory of the border_analytics.py script. 2.And then type: python3 border_analytics.py /path/to/inputfile /path/to/outputfile 3.Press enter.
